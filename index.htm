@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz Cumpleaños Leidy</title>
+  <style>
+    body {
+      background: linear-gradient(#ffdee9, #b5fffc);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .no-touch-button {
+      background-color: #f48fb1;
+      color: white;
+      padding: 15px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 30px;
+      cursor: not-allowed;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .no-touch-button:hover::after {
+      content: " shh... ¡No se puede tocar!";
+      font-size: 14px;
+      color: #880e4f;
+    }
+
+    .message {
+      background-color: white;
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 600px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      margin-top: 10px;
+    }
+
+    .message p {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .message strong {
+      color: #e91e63;
+      font-size: 22px;
+    }
+
+    .bear-img {
+      width: 120px;
+      margin: 10px;
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    iframe {
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="no-touch-button">No presiones este botón 🎁</button>
+
+  <div class="message">
+    <strong>Feliz cumpleaños Leidy 🎂</strong>
+    <p>
+      Eres lo más hermoso en mi vida agradecerte por los días y momentos no muchos pero sí que llenan de alegría con solo verte y hoy desearte lo mejor porque una niña que brilla como el sol nació hoy con gran corazón y espero mi vida la pases super hoy acompañada de tu familia que es lo más importante e amigos<br><br>
+      <strong>Te amoo mucho mi niña bella 💖</strong>
+    </p>
+  </div>
+
+  <!-- Ositos con globos -->
+  <div>
+    <img class="bear-img" src="https://i.imgur.com/N7rlQY3.png" alt="osito 1">
+    <img class="bear-img" src="https://i.imgur.com/fJZ60uP.png" alt="osito 2">
+    <img class="bear-img" src="https://i.imgur.com/YFTUbGS.png" alt="osito 3">
+  </div>
+
+  <!-- Video musical desde segundo 23 -->
+  <iframe width="300" height="180"
+    src="https://www.youtube.com/embed/7RWbq-lbBlk?start=23&autoplay=1&controls=1"
+    title="Canción para Leidy"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+
+</body>
+</html>
